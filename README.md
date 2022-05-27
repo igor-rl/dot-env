@@ -1,20 +1,21 @@
 # dot-env
-A simple library for managing environment variables in PHP.
+###A simple library for managing environment variables in PHP.
 
-PHP Environment Variables Manager
-A simple library for managing environment variables in PHP.
+###PHP Environment Variables Manager
+###A simple library for managing environment variables in PHP.
 
-Usage
+##Usage
 
 To use this library, simply create a .env file at the root of the project, following the model below (one variable per line):
-```
+```ruby
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=pass
 DB_NAME=database
 DB_PORT=3307
 ```
-```
+
+```ruby
 <?php
 require 'vendor/autoload.php';
 
@@ -26,5 +27,5 @@ echo getenv('DB_HOST');
 ?>
 ```
 
-Requirements
+##Requirements
 This library needs PHP 7.0 or greater.
