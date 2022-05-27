@@ -1,8 +1,7 @@
 # dot-env
-### A simple library for managing environment variables in PHP.
-
-### PHP Environment Variables Manager
-### A simple library for managing environment variables in PHP.
+A simple library for managing environment variables in PHP.
+PHP Environment Variables Manager
+A simple library for managing environment variables in PHP.
 
 ## Usage
 
